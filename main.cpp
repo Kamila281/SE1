@@ -1,4 +1,8 @@
-#Р­С‚Р° РїСЂРѕРіСЂР°РјРјР° СЏРІР»СЏРµС‚СЃСЏ СѓС‡РµР±РЅРѕР№
+#Avtor: Buliakova Kamila
+#Group: KE-217
+#Year: 2024
+
+
 #include <iostream>
 
 using namespace std;
@@ -6,13 +10,11 @@ using namespace std;
 int main()
 {
     int a, b;
-    cout<<"Введите первое целое число:";
-    cin>>a;
-    cout<<"Введите второе целое число:";
-    cin>>b;
-    cout<<"Вы ввели числа:"<<a<<"и"<<b<<endl;
-     int sum=a+b;
-     cout<<"Сумма чисел:"<<sum<<endl;
+     cout << "Enter A and B: ";
+     cin >> a >> b;
+     cout << "A + B = " << a + b << '\n'
+          << "A - B = " << a - b << '\n'
+          << "A * B = " << a * b << '\n';
 
     return 0;
 }
